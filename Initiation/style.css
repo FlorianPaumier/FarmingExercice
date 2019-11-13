@@ -1,0 +1,179 @@
+body 
+{
+	background: #DCDCDC;
+	margin: 0;
+	padding: 0;	
+}
+/*Police utilisées*/
+	@font-face{
+		font-family: "Asul";
+		src: url("font-face/Asul-Bold.ttf") format('truetype');
+		font-weight: normal;
+	    font-style: normal;
+	}
+	@font-face{
+		font-family: "monof55";
+		src: url("font-face/monof55.ttf") format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face{
+		font-family: "Antiqua";
+		src: url("font-face/Antiqua-Bold.ttf") format('truetype');
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face{
+		font-family: "Loosey";
+		src: url("font-face/Loosey.otf") format('OpenType');
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face{
+		font-family: "Steelfish";
+		src: url("font-face/Steelfish.ttf") format('truetype');
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face{
+		font-family: "Gravity";
+		src: url("font-face/Gravity-Regular.otf") format('OpenType');
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face{
+		font-family: "Alba";
+		src: url("font-face/ALBA.ttf") format('truetype');
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face{
+		font-family: "adventure";
+		src: url("font-face/Adventure.otf") format('OpenType');
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face{
+		font-family: "Chava";
+		src: url("font-face/Chava-Regular.ttf") format('truetype');
+		src: url("font-face/Chava-Regular.otf") format('OpenType');
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face{
+		font-family: "Moon";
+		src: url("font-face/TT-Moons-Thin-Italic-DEMO.otf") format('OpenType');
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face{
+		font-family: "Shark";
+		src: url("font-face/MonaShark.otf") format('OpenType');
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face{
+		font-family: "Big";
+		src: url("font-face/BIGTOP.ttf") format('truetype');
+		font-style: normal;
+		font-weight: normal;
+	}
+	h1{
+	margin: 0;
+	color: black;
+}
+	h2{
+		color: black;
+		font-family: "Asul";
+		font-size: medium;
+		margin-bottom: 10px;
+		text-decoration: underline;
+	}
+
+	h3{
+		color: black;
+		font-size: large;
+		font-family: "Gravity";
+	}
+	h4{
+		color: black;
+		font-family: "Asul";
+	}
+	h5{
+		font-family: "monofur55";
+		font-size: large;
+		color: white;
+	}
+	h6{
+		font-size: 2em;
+		font-family: "monofur55";
+		color: black;
+		text-decoration: underline;
+	}
+	/*Bandeau du haut*/
+#header{
+	margin: 0;
+	background-color: #F0A000;
+	height: 50px;
+	width: auto;
+
+}
+#header > p {
+	display: inline;
+	text-decoration: underline;
+}
+#header > a {
+	color: black;
+	font-family: "Calibri";
+	text-decoration: none;
+	display: inline;
+}
+.titre{
+	color: white;
+	font-family: "Loosey";
+	font-size: 1.5em; 
+	margin-top: 0;
+}
+/*Footer*/
+#footer{
+	background-color: #F0A000;
+	height: auto;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+}
+#footer > p {
+	display: inline;
+	text-decoration: underline;
+}
+#footer > a {
+	color: black;
+	font-family: "Calibri";
+	text-decoration: none;
+}
+
+#ressourcesBoard 
+{
+	display: inline-block;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	max-width: 30em;
+	margin-top: 5%;
+	margin-left: 5%;
+	font-size: 2em;
+}
+
+#messageBoard
+{
+	display: inline-block;
+    margin-left: 10%;
+    font-size: 1.5em;
+}
+#actions{
+	position: relative;
+	margin-top: 20px;
+	top: 40%;
+	left: 10%;
+}

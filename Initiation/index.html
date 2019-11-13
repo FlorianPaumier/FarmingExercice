@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+	<title>Farming</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="../../../jquery-3.1.0.js"></script>
+	<script type="text/javascript" src="../../../jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="../../../jquery-easyui-1.5/jquery.easyui.min.js "></script>
+
+	<meta charset="utf-8">
+</head>
+
+<body onload="main()">
+	<div id="Global" style="display:">
+		<div id="header">
+			<center>
+				<h1><div id="titleScreen">Farming Land</div></h1>
+			</center>
+		</div>
+		<div id="ressourcesBoard">
+			<div id="Argent">Argent : <span id="nbArgent">0</span> $</div>
+			<div id="Carottes">Carottes : <span id="nbCarottes">0</span></div>
+			<div id="Avocats" style="display:none;">Avocats : <span id="nbAvocats">0</span></div>
+			<div id="champsCarottes">Champs de carottes : <span id="nbChampsCarottes">1</span></div>
+			<div id="champsAvocats" style="display:none;">Champs d'avocats : <span id="nbChampsAvocats">0</span></div>
+		</div>
+		
+		<div id="messageBoard">
+			<span id="Messages"></span>
+		</div>
+		
+		<div id="actions">
+			<span id="vendreLegumesSpan" ><button id="vendreLegumesBut" onclick="vendreLegumes()">Vendre vos légumes</button></span><br/><br/>
+			<span id="achatChampCarottesSpan" style="display:none;" ><button id="achatChampCarottesBut" onclick="acheterChamp('carotte')">Acheter un nouveau champs de carottes</button> Prix : 10 $</span><br/>
+			<span id="achatChampAvocatsSpan" style="display:none;" ><button id="achatChampAvocatsBut" onclick="acheterChamp('avocat')">Acheter un nouveau champs d'avocats</button> Prix : 20 $</span><br/>
+			<span id="AchatChampsBio" style="display:none;"><button id="AchatChampsBioBut" onclick="productionbio()">Production Bio</button> Prix : 5$/champs</span>
+		</div>
+		<div>
+			<p id="production"></p>
+			<p id="alerte"> </p>
+		</div>
+
+	</div>
+	<div id="footer">
+		<center>
+			<h1><a href="../../../explication.php">Règle du jeu</a> </h1>
+		</center>
+	</div>
+	<video id="Video" controls="console" style="display:none" src="Victoire.mov"></video>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+body 
+{
+    padding-left: 100px;
+	padding-top: 20px;
+}
+	
+#ressourcesBoard 
+{
+	border-style: solid;
+	border-width: 1px;
+	max-width: 150px;
+	margin-top: 20px;
+}
+
+#messageBoard
+{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
